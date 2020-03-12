@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <script type="text/javascript" src="script.js"></script>
+        <style type="text/css">
+            .container {
+            position: relative;
+            width: 100%;
+            max-width: 150px;
+            }
+
+            .container img {
+            width: 100%;
+            height: auto;
+            }
+
+            .container .btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: lightgray;
+            border: none;
+            cursor: pointer;
+            text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <img id='bgImg' src="images/Rectangle-136.svg" style="width:100%">
+            <button class="btn" onclick='change()'>
+                <img id='fgImg' src="images/Icon-awesome-fire.svg" style="width:100%">
+            </button>
+        </div>
+    </body>
+</html>
